@@ -1,0 +1,33 @@
+.popup-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: min(90%, 500px);
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.thumbnail {
+  margin: 0px auto;
+}
+.trigger-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px 10px;
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+}
+button {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .popup-content {
+    height: 50vh;
+    width: 600px;
+  }
+}
